@@ -39,9 +39,8 @@ section {
 
 
 .pag01 {
-    overflow-y: hidden;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     background-color: black;
     background-image: url(../imagens/logo03-remove.png);
     background-repeat: no-repeat;
