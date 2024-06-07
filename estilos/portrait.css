@@ -37,7 +37,6 @@ section {
     min-height: 100vh;
 }
 .pag01 {
-    display: none;
     background-color: black;
     background-image: url(../imagens/logo03-remove.png);
     background-repeat: no-repeat;
@@ -90,7 +89,7 @@ section {
     color: white;
 }
 .pag02 > .popover {
-    background-color: var(--cor01);
+    background-color: rgba(128, 128, 128, 0.521);
     width: 100%;
     position: relative;
     top: 85px;
@@ -114,6 +113,10 @@ section {
     font-size: 30px;
     border-bottom: 1px solid black ;
     margin-top: 2px;
+}
+.pag02 > .popover > p:hover {
+    background-color: gray;
+    transition: all .2s;
 }
 .pag02 > .txtPag02 {
     width: 70%;
