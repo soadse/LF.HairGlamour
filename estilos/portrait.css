@@ -222,6 +222,7 @@ section {
 .pag04 > p {
     color: white;
     margin: 20px;
+    padding-top: 20px;
     font-family: var(--font01);
     font-weight: lighter;
     line-height: 30px;
