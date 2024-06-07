@@ -35,9 +35,15 @@ body {
 section {
     width: 100vw;
     min-height: 100vh;
-    animation: opacidade 1s forwards;
 }
-@keyframes opacidade {
+
+.hidden {
+    opacity: 0;
+}
+.show {
+    animation: mostra 1s forwards;
+}
+@keyframes mostra {
     0% {
         opacity: 0;
         filter: blur(10px);
@@ -47,7 +53,6 @@ section {
         filter: blur(0px);
     }
 }
-
 
 .pag01 {
     width: 100vw;

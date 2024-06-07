@@ -2,7 +2,19 @@ var open = document.querySelector('#open')
 var close = document.querySelector('#closee')
 var pag02 = document.querySelector('.pag02')
 var pag03 = document.querySelector('.pag03')
+var last = document.querySelectorAll('.hidden')
 
+
+var myOb = new IntersectionObserver ( (teste) => {
+    teste.forEach( (teste) => {
+        if(teste.isIntersecting){
+            teste.target.classList.add('show')
+        } else {
+            teste.target.classList.remove('show')
+        }
+    })
+})
+last.forEach( (last) => myOb.observe(last))
 
 function abrir(){
     open.style.display = 'none'
