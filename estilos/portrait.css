@@ -33,6 +33,7 @@ body {
     background-color: black;
 }
 section {
+    overflow-x: hidden;
     width: 100vw;
     min-height: 100vh;
 }
