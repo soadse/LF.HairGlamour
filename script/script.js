@@ -2,6 +2,7 @@ var open = document.querySelector('#open')
 var close = document.querySelector('#closee')
 var pag02 = document.querySelector('.pag02')
 var pag03 = document.querySelector('.pag03')
+var pag04 = document.querySelector('.pag04')
 var last = document.querySelectorAll('.hidden')
 
 
@@ -29,5 +30,6 @@ function fechar(){
 function secoes(){
     pag02.style.display = 'block'
     pag03.style.display = 'block'
+    pag04.style.display = 'flex'
 }
 setTimeout(secoes, 5000)
