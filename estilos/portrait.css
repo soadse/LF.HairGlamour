@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+.montserrat-uniquifier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.cinzel {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+:root {
+    --font01: "Montserrat", sans-serif;
+    --font02: "Cinzel", serif;
+    --cor01: #33393F;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    background-color: black;
+}
+section {
+    width: 100vw;
+    min-height: 100vh;
+}
+.pag01 {
+    display: none;
+    background-color: black;
+    background-image: url(../imagens/logo03-remove.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    animation: logo 5s forwards;
+}
+@keyframes logo {
+    0% {
+        opacity: 0;
+        filter: blur(10px);
+    }
+    50% {
+        opacity: 1;
+        filter: blur(0px);
+    }
+    100% {
+        opacity: 0;
+        filter: blur(10px);
+        display: none;
+    }
+}
+
+
+.pag02 {
+    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0), black), url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.pag02 > .contPag02  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.pag02 > .contPag02 > img {
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 120px;
+}
+.pag02 > .contPag02 > .btnPag02 > button {
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    
+}
+.pag02 > .contPag02 > .btnPag02 > button > span {
+    font-size: 3em;
+    color: white;
+}
+.pag02 > .popover {
+    background-color: var(--cor01);
+    width: 100%;
+    position: relative;
+    top: 85px;
+    border: none;
+    color: white;
+    text-align: center;
+    animation: popo 1s forwards;
+    overflow-y: hidden;
+}
+@keyframes popo {
+    0% {
+        height: 0vh;
+    }
+    100% {
+        height: 190px;
+    }
+}
+
+
+.pag02 > .popover > p {
+    font-size: 30px;
+    border-bottom: 1px solid black ;
+    margin-top: 2px;
+}
+.pag02 > .txtPag02 {
+    width: 70%;
+    margin-top: 110%;
+    margin-left: 10px;
+}
+.pag02 > .txtPag02 > p {
+    color: white;
+    font-size: 2em;
+    font-weight: lighter;
+    font-family: var(--font01);
+}
+
+.pag03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pag03 > .txtPag03 {
+    width: 85%;
+    color: white;
+}
+.pag03 > .txtPag03 > h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-family: var(--font02);
+    font-weight: lighter;
+}
+.pag03 > .txtPag03 > p {
+    font-family: var(--font01);
+    margin-bottom: 50px;
+    font-weight: lighter;
+    line-height: 25px;
+}
+.pag03  .imgPag03 {
+    width: 85%;
+    height: 50vh;
+    box-shadow:inset 0px 0px 100px black;
+    border-radius: 5px;
+    animation: fotos 20s infinite;
+}
+@keyframes fotos {
+    0% {
+        background-image: url(../imagens/luis01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    30% {
+        background-image: url(../imagens/luis02.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    60% {
+        background-image: url(../imagens/luis03.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    100% {
+        background-image: url(../imagens/luis01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+}

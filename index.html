@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/portrait.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>LF.HairGlamour</title>
+</head>
+<body>
+    <section class="pag01"></section>
+
+    <section class="pag02">
+        <div class="contPag02">
+            <img src="imagens/nome.png" alt="">
+
+            <div id="open" class="btnPag02">
+                <button popovertarget="menu">
+                    <span class="material-symbols-outlined" onclick="abrir()">menu</span>
+                </button>
+            </div>
+
+            <div id="closee" class="btnPag02" style="display: none;">
+                <button>
+                    <span class="material-symbols-outlined" onclick="fechar()">close</span>
+                </button>
+            </div>
+        </div>
+        <div id="menu" class="popover" popover>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p>teste</p>
+            <p style="border: none;">teste</p>
+        </div>
+        <div class="txtPag02">
+            <p>Transformando seu visual com estilo e elegância</p>
+        </div>
+    </section>
+    <section id="pag03" class="pag03">
+        <div class="txtPag03">
+            <h1>LF.HairGlamour</h1>
+            <p>Realçamos a sua beleza única com elegância e sofisticação, proporcionando uma experiência de transformação incomparável.</p>
+        </div>
+        <div class="imgPag03"></div>
+    </section>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
