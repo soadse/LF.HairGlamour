@@ -216,7 +216,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 10px;
+    height: 100vh;
 }
 .pag04 > p {
     color: white;
