@@ -225,4 +225,5 @@ section {
 .pag04 > iframe {
     width: 90%;
     height: 70vh;
+    margin: 10px;
 }
