@@ -36,7 +36,11 @@ section {
     width: 100vw;
     min-height: 100vh;
 }
+
+
 .pag01 {
+    width: 100vw;
+    height: 100vh;
     background-color: black;
     background-image: url(../imagens/logo03-remove.png);
     background-repeat: no-repeat;
@@ -107,8 +111,6 @@ section {
         height: 190px;
     }
 }
-
-
 .pag02 > .popover > p {
     font-size: 30px;
     border-bottom: 1px solid black ;
@@ -130,23 +132,26 @@ section {
     font-family: var(--font01);
 }
 
-.pag03 {
+
+
+.pag03 > .contPag03 {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.pag03 > .txtPag03 {
+.pag03 > .contPag03 > .txtPag03 {
     width: 85%;
     color: white;
 }
-.pag03 > .txtPag03 > h1 {
+.pag03 > .contPag03 > .txtPag03 > h1 {
     margin-bottom: 20px;
     font-size: 2em;
     font-family: var(--font02);
     font-weight: lighter;
 }
-.pag03 > .txtPag03 > p {
+.pag03 > .contPag03 > .txtPag03 > p {
     font-family: var(--font01);
     margin-bottom: 50px;
     font-weight: lighter;
@@ -157,7 +162,7 @@ section {
     height: 50vh;
     box-shadow:inset 0px 0px 100px black;
     border-radius: 5px;
-    animation: fotos 20s infinite;
+    animation: fotos 10s infinite;
 }
 @keyframes fotos {
     0% {
