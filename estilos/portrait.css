@@ -82,7 +82,8 @@ section {
 
 
 .pag02 {
-    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0), black), url(../imagens/fundo.jpg);
+    background-color: black;
+    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0), black), url(../imagens/pexel01.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
