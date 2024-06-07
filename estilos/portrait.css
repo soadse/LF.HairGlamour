@@ -211,9 +211,18 @@ section {
 
 
 .pag04 {
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pag04 > p {
+    color: white;
+    margin: 20px;
+    font-family: var(--font01);
+    font-weight: lighter;
 }
 .pag04 > iframe {
     width: 90%;
-    height: 90vh;
+    height: 70vh;
 }
