@@ -221,16 +221,20 @@ section {
 .pag04 > p {
     color: white;
     margin: 30px;
-    padding-top: 30px;
+    padding-top: 20px;
     font-family: var(--font01);
     font-weight: lighter;
     line-height: 30px;
+}
+.pag04 > p > strong {
+    color: gold;
 }
 .pag04 > iframe {
     width: 100%;
     height: 70vh;
     margin: 10px;
 }
+
 
 
 .pag05 {
