@@ -56,6 +56,7 @@ section {
 }
 
 .pag01 {
+    display: none;
     width: 100vw;
     height: 90vh;
     background-color: black;
@@ -253,4 +254,16 @@ section {
 }
 .pag05 > video {
     width: 70%;
+}
+
+
+.pag06 {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pag06 > iframe {
+    width: 50%;
 }
