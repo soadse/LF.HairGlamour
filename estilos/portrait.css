@@ -275,7 +275,12 @@ section {
 .pag06 > iframe {
     width: 50%;
 }
+.pag06 > a > img {
+    width: 30px;
+    margin-left: 10px;
+}
 .pag06 > a {
+    text-decoration: none;
     font-size: 2em;
     text-align: center;
     color: var(--cor02);
