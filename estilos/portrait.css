@@ -18,6 +18,7 @@
     --font01: "Montserrat", sans-serif;
     --font02: "Cinzel", serif;
     --cor01: #33393F;
+    --cor02: #B68208;
 }
 
 
@@ -228,7 +229,7 @@ section {
     line-height: 30px;
 }
 .pag04 > p > strong {
-    color: gold;
+    color: var(--cor02);
 }
 .pag04 > iframe {
     width: 100%;
@@ -258,12 +259,24 @@ section {
 
 
 .pag06 {
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+.pag06 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    color: white;
+}
 .pag06 > iframe {
     width: 50%;
+}
+.pag06 > a {
+    font-size: 2em;
+    text-align: center;
+    color: var(--cor02);
 }
