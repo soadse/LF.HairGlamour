@@ -269,11 +269,11 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 50px;
+    margin: 40px;
     color: white;
 }
 .pag06 > iframe {
-    width: 50%;
+    width: 70%;
 }
 .pag06 > a > img {
     width: 30px;
@@ -284,4 +284,6 @@ section {
     font-size: 2em;
     text-align: center;
     color: var(--cor02);
+    line-height: 50px;
+    margin: 20px;
 }
