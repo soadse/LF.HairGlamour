@@ -275,6 +275,12 @@ section {
 .pag06 > iframe {
     width: 70%;
 }
+.pag06 > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .pag06 > a > img {
     width: 150px;
 }
@@ -285,7 +291,7 @@ section {
 .pag06 > a > img:not(:hover) {
     transition: all .5s;
 }
-.pag06 > a > p {
+.pag06 > a {
     text-decoration: none;
     color: white;
 }
