@@ -4,6 +4,7 @@ var pag02 = document.querySelector('.pag02')
 var pag03 = document.querySelector('.pag03')
 var pag04 = document.querySelector('.pag04')
 var pag05 = document.querySelector('.pag05')
+var pag05 = document.querySelector('.pag06')
 var last = document.querySelectorAll('.hidden')
 
 
