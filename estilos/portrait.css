@@ -276,14 +276,16 @@ section {
     width: 70%;
 }
 .pag06 > a > img {
-    width: 30px;
-    margin-left: 10px;
+    width: 150px;
 }
-.pag06 > a {
+.pag06 > a > img:hover {
+    filter: drop-shadow(0px 0px 10px #26D066);
+    transition: all .5s;
+}
+.pag06 > a > img:not(:hover) {
+    transition: all .5s;
+}
+.pag06 > a > p {
     text-decoration: none;
-    font-size: 2em;
-    text-align: center;
-    color: var(--cor02);
-    line-height: 50px;
-    margin: 20px;
+    color: white;
 }
